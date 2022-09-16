@@ -3,6 +3,8 @@ This repository includes projects related to ML (also includes those from the co
 
 **Note**: The [Taxi Fare prediction](#taxi-fare-prediction) and [Life expectancy prediction](#life-expectancy-prediction) are both present in [this](https://github.com/sky-2002/ML-Course-Projects/blob/main/taxi_fare_prediction.ipynb) notebook.
 
+**Note**: The [Vehicle classification](#vehicle-classification) and [Car deal classification](#car-deal-classification) are both present in [this](https://github.com/sky-2002/ML-Course-Projects/blob/main/Vehicle_classification.ipynb) notebook.
+
 ## Taxi Fare prediction.
 This project is about the new york city taxi fares dataset and contains various approachs that can be used to predict the taxi fares.
 I have done a lot of preprocessing on the dataset as it had a lot of outliers. Also, a lot of exploratory data analysis has been done to analyse features and select the ones which are correlated with the target variable. Also, it is useful to visualize the distributions of our features.
