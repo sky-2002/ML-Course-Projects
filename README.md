@@ -30,6 +30,8 @@ Details of the above mentioned approaches.<br>
 
 I also came to know that MAPE is a better metric than MSE and hence I chose the SGD model as the best one because it has a low MAPE score.
 
+Note: [This](https://github.com/sky-2002/ML-Course-Projects/blob/main/taxi_fare_vehicle_classification_NNs.ipynb) notebook contains neural network approach for the same taxi fare problem. I have explored many models with different combinations of hyperparameters.
+
 
 ## Life Expectancy prediction.
 In this problem we were to predict the life expectancy given various parameters like country, adult mortality, infant mortality and much more. I used maps and plots to create some interesting visualizations(using which we can infer a lot of things) here. Also, I performed Kolmogorov-Smirnov test to find out which features had a distribution similar to a gaussion one. 
@@ -63,6 +65,12 @@ Metrics of the methods used:
 |LinearSVC|0.614|0.622|0.614|0.613|
 
 SVC with RBF kernel worked out to be the best as it had a high F1-Score compared to others.
+
+Note: [This](https://github.com/sky-2002/ML-Course-Projects/blob/main/taxi_fare_vehicle_classification_NNs.ipynb) notebook contains neural network approach for the same vehicle classification problem. I have explored many models with different combinations of hyperparameters and model architectures.
+
+<img width="700" height="500" alt="image" src="https://user-images.githubusercontent.com/84656834/194843891-bb3ba4bd-fd33-44d5-8659-e6334961db47.png">
+<img width="400" height="400" alt="image" src="https://user-images.githubusercontent.com/84656834/194844324-12ed636b-0728-49b7-b006-dea83a189cbd.png">
+
 
 ## Car deal classification
 This was a binary classification problem in which, given some attributes like Buying_Cost,	Maintainance_Cost,	Number_of_doors, predict whether the deal is a Nice deal or a Bad deal. This dataset was highly imbalanced. I have used balanced estimators that give weight to a class based on the number of samples of that class. I have used ensemble models in this problem. Tried with bagging and pasting. Used estimators like random forest, and other such estimators. Analysed the performance using the ROC. Also used Adaboost classifier and XGBoost classifier.
